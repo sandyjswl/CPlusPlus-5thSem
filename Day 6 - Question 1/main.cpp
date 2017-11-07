@@ -10,30 +10,30 @@ public:
     A(int);
     void show();
     A operator+(A);
-    A operator+(int);
-    friend A operator +(int, A&);
+  //  A operator+(int);
+  //  friend A operator +(int, A&);
 
     A operator-(A);
-    A operator ++();
-    A operator ++(int);
-    friend A operator --(A &);
+  //  A operator ++();
+  //  A operator ++(int);
+ //   friend A operator --(A &);
 
 };
 
-A operator+(int x,A&t)
+/*A operator+(int x,A &t)
 {
     A r;
     r.val=x+t.val;
     return r;
 
-}
+}*/
 
-
+/*
 A operator --(A &t)
 {
-    t.val--;
-    return t;
-}
+t.val--;
+return t;
+}*/
 
 
 
@@ -51,11 +51,13 @@ A A:: operator+(A temp){
     return *this;
 }
 
+/*
 A A:: operator+(int x){
     val=val+x;
     return *this;
 }
 
+*/
 
 
 
@@ -65,7 +67,7 @@ A A:: operator-(A temp){
     return *this;
 }
 
-A A:: operator++()
+/*A A:: operator++()
 {
     val++;
     return *this;
@@ -74,7 +76,7 @@ A A:: operator++(int x)
 {
     val++;
     return *this;
-}
+}*/
 
 
 int main()
@@ -89,5 +91,6 @@ int main()
     cout<<"Result is :";
     d=a+b-c;
     d.show();
+
 
 }
