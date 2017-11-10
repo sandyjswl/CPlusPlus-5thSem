@@ -1,4 +1,4 @@
-# Write the For Lab Copy.cpp in lab copy. This program is shorter than the main program.
+# Write the For "Lab Copy.cpp" in lab copy. This program is shorter than the main program.
 
 # Output
 
