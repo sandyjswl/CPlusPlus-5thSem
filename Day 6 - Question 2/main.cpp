@@ -47,17 +47,22 @@ SimpleCircle SimpleCircle ::operator=(SimpleCircle &s) {
 }
 
 void SimpleCircle::show() {
-    cout<<"THE VA:LUE OF RADIUS::"<<radius<<endl;
+    cout<<"THE VALUE OF RADIUS::"<<radius<<endl;
 }
 
 int main() {
     SimpleCircle a(0);
     SimpleCircle b(9.0),c;
+    cout<<"Default VALUE:"<<endl;
+    a.show();
     b.show();
+    cout<<"After Incrementing A:"<<endl;
     a++;
     a.show();
+    cout<<"After Decrementing B:"<<endl;
     b--;
-
+    b.show();
+    cout<<"After Using Overloaded = operator:"<<endl;
     b=a;
     b.show();
 
