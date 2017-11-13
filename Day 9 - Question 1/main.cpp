@@ -16,7 +16,6 @@ int main(int argc, char **argv)
    {
        if (argc<3){
            throw 1;
-          exit(0);
        }
     
        int a=atoi(argv[1]);
