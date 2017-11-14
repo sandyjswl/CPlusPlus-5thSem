@@ -1,19 +1,13 @@
 # Output
 
-Default VALUE:
+Object A before Incrementing  Value : 0
 
-THE VALUE OF RADIUS::0
+Object B before Incrementing  Value : 9
 
-THE VALUE OF RADIUS::9
 
-After Incrementing A:
+Object A after Incrementing  Value : 1
 
-THE VALUE OF RADIUS::1
+Object B after Incrementing  Value : 8
 
-After Decrementing B:
 
-THE VALUE OF RADIUS::8
-
-After Using Overloaded = operator:
-
-THE VALUE OF RADIUS::1
+After overloading B on A  Value : 8
