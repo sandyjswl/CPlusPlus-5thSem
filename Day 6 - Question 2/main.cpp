@@ -47,25 +47,27 @@ SimpleCircle SimpleCircle ::operator=(SimpleCircle &s) {
 }
 
 void SimpleCircle::show() {
-    cout<<"THE VALUE OF RADIUS::"<<radius<<endl;
+    cout<<" Value : "<<radius<<endl;
 }
 
 int main() {
-    SimpleCircle a(0);
+    SimpleCircle a;
     SimpleCircle b(9.0),c;
-    cout<<"Default VALUE:"<<endl;
+    cout<<"Object A Default ";
     a.show();
+    cout<<"Object B Default ";
     b.show();
-    cout<<"After Incrementing A:"<<endl;
+    cout<<endl;
     a++;
+    cout<<"Object A after Incrementing ";
     a.show();
-    cout<<"After Decrementing B:"<<endl;
     b--;
+    cout<<"Object B after Decrementing ";
     b.show();
-    cout<<"After Using Overloaded = operator:"<<endl;
-    b=a;
-    b.show();
+    cout<<endl;
+    cout<<"After overloading B on A ";
 
-
+    a=b;
+    a.show();
 
 }
