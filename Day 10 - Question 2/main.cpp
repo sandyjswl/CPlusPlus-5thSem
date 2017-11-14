@@ -2,12 +2,12 @@
 #include<vector>
 using namespace std;
 struct Pair{
-	string ch;
+	char ch;
 	int cnt;
 };
 
 vector <Pair> p;
-void count(string ch)
+void count(char ch)
 {
 	int i=0;
 	for(i=0;i<p.size();i++)
@@ -27,7 +27,7 @@ void count(string ch)
 }
 
 int main() {
-	 string ch;	
+	 char ch;	
 	 cout<<"Enter a String";
 	while(cin>>ch)
 	{
