@@ -33,7 +33,7 @@ int main() {
 	{
 		count(ch);
 	}
-	cout<<"The Output:"
+	cout<<"The Output:";
 	for(int i=0;i<p.size();i++)
 		cout<<p[i].ch<<" "<<p[i].cnt<<endl;
 }
