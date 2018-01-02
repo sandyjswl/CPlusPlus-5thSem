@@ -31,12 +31,13 @@ int usingArray()
 	add=s1;
 
 	cout<<"USING STRUCTURES"<<endl;
-	for(int i=0;i<12;i++,add++)
+	for(int i=0;i<12;i++)
 	{
 		cout<<(add->mont)<<" ";
 
 		cout<<(add->days);
 		cout<<endl;
+    add++;
 	}
 
 }
@@ -48,5 +49,3 @@ int main()
 	usingStruct();
 
 }
-
-

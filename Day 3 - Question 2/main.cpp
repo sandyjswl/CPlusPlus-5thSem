@@ -13,6 +13,7 @@ int Pair(char *str,char *key)
         {
             c=c+1;
             i=i+2;
+            continue;
         }
         i=i+1;
     }

@@ -45,7 +45,7 @@ int main()
 	int a=100,b=200;
 //	int *p=&a;      //
 	A ob;
-	A &obref=ob;          // Storing the reference opf the object ob in obref
+	A &obref=ob;          // Storing the reference of the object ob in obref
 	cout<<"a="<<a<<" b= "<<b<<endl;
 	swap(a,b);
 	cout<<"a="<<a<<" b= "<<b<<endl;

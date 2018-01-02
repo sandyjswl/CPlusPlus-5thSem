@@ -2,7 +2,7 @@
 
 using namespace std;
 
-template<class T>
+template<typename T>
 void bubbleSort(T a[],int size)
 {
 	for(int i=0;i<size-1;i++)
@@ -22,8 +22,8 @@ void bubbleSort(T a[],int size)
 	}
 
 }
-template <class Ty>
-void display(Ty a[], int size)
+template <class T>
+void display(T a[], int size)
 {
 	for(int i=0;i<size;i++)
 		cout<<a[i]<<" ";

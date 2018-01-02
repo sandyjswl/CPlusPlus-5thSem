@@ -34,12 +34,9 @@ void  Clock:: show()
 
 Clock Clock:: sum(Clock t2)
 {
-
-    Clock c3;
-    c3.hh=hh+t2.hh;
-    c3.mm=mm+t2.mm;
-    return c3;
-
+    t2.hh=hh+t2.hh;
+    t2.mm=mm+t2.mm;
+    return t2;
 }
 
 int main()
